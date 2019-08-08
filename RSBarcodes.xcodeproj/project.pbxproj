@@ -15,7 +15,6 @@
 		D08336CD1A209AAB004EE128 /* RSCode128Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336BC1A209AAB004EE128 /* RSCode128Generator.swift */; };
 		D08336CE1A209AAB004EE128 /* RSCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336BD1A209AAB004EE128 /* RSCodeGenerator.swift */; };
 		D08336CF1A209AAB004EE128 /* RSCodeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336BE1A209AAB004EE128 /* RSCodeLayer.swift */; };
-		D08336D01A209AAB004EE128 /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336BF1A209AAB004EE128 /* RSCodeReaderViewController.swift */; };
 		D08336D11A209AAB004EE128 /* RSCornersLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C01A209AAB004EE128 /* RSCornersLayer.swift */; };
 		D08336D21A209AAB004EE128 /* RSEANGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C11A209AAB004EE128 /* RSEANGenerator.swift */; };
 		D08336D31A209AAB004EE128 /* RSExtendedCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C21A209AAB004EE128 /* RSExtendedCode39Generator.swift */; };
@@ -42,7 +41,6 @@
 		D08336BC1A209AAB004EE128 /* RSCode128Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCode128Generator.swift; path = Source/RSCode128Generator.swift; sourceTree = SOURCE_ROOT; };
 		D08336BD1A209AAB004EE128 /* RSCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCodeGenerator.swift; path = Source/RSCodeGenerator.swift; sourceTree = SOURCE_ROOT; };
 		D08336BE1A209AAB004EE128 /* RSCodeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCodeLayer.swift; path = Source/RSCodeLayer.swift; sourceTree = SOURCE_ROOT; };
-		D08336BF1A209AAB004EE128 /* RSCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCodeReaderViewController.swift; path = Source/RSCodeReaderViewController.swift; sourceTree = SOURCE_ROOT; };
 		D08336C01A209AAB004EE128 /* RSCornersLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCornersLayer.swift; path = Source/RSCornersLayer.swift; sourceTree = SOURCE_ROOT; };
 		D08336C11A209AAB004EE128 /* RSEANGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSEANGenerator.swift; path = Source/RSEANGenerator.swift; sourceTree = SOURCE_ROOT; };
 		D08336C21A209AAB004EE128 /* RSExtendedCode39Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSExtendedCode39Generator.swift; path = Source/RSExtendedCode39Generator.swift; sourceTree = SOURCE_ROOT; };
@@ -103,7 +101,6 @@
 				D08336C41A209AAB004EE128 /* RSITF14Generator.swift */,
 				D08336C71A209AAB004EE128 /* RSUPCEGenerator.swift */,
 				D08336C11A209AAB004EE128 /* RSEANGenerator.swift */,
-				D08336BF1A209AAB004EE128 /* RSCodeReaderViewController.swift */,
 				D08336BE1A209AAB004EE128 /* RSCodeLayer.swift */,
 				D08336C01A209AAB004EE128 /* RSCornersLayer.swift */,
 				D08336C31A209AAB004EE128 /* RSFocusMarkLayer.swift */,
@@ -206,7 +203,6 @@
 				566905421DE3EE3B00B7D6D2 /* ContextMaker.m in Sources */,
 				D08336CF1A209AAB004EE128 /* RSCodeLayer.swift in Sources */,
 				D08336D51A209AAB004EE128 /* RSITF14Generator.swift in Sources */,
-				D08336D01A209AAB004EE128 /* RSCodeReaderViewController.swift in Sources */,
 				D08336D11A209AAB004EE128 /* RSCornersLayer.swift in Sources */,
 				D08336D81A209AAB004EE128 /* RSUPCEGenerator.swift in Sources */,
 				D08336D31A209AAB004EE128 /* RSExtendedCode39Generator.swift in Sources */,
@@ -273,7 +269,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Source/RSBarcodes-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -326,7 +322,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Source/RSBarcodes-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
